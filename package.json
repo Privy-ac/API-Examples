@@ -1,25 +1,25 @@
 {
-  "name": "privy-api-examples",
-  "version": "1.0.0",
-  "description": "Node.js examples for the Privy API, including token data, swap quotes, holdings, trading, and account activity.",
-  "private": true,
-  "type": "module",
-  "engines": {
-    "node": ">=20.12"
-  },
-  "scripts": {
-    "search": "node examples/01-search-tokens.mjs",
-    "trending": "node examples/02-trending-tokens.mjs",
-    "token": "node examples/03-token-info.mjs",
-    "quote": "node examples/04-swap-quote.mjs",
-    "holdings": "node examples/05-wallet-holdings.mjs",
-    "positions": "node examples/06-positions.mjs",
-    "activity": "node examples/07-activity.mjs",
-    "points": "node examples/08-points.mjs",
-    "buy": "node examples/09-create-buy-intent.mjs",
-    "status": "node examples/10-trade-status.mjs",
-    "sell": "node examples/11-create-sell-authorization.mjs",
-    "account": "node examples/12-account.mjs",
-    "test": "node --test \"test/*.test.mjs\""
-  }
+    "name": "privy-api-examples",
+    "version": "1.0.0",
+    "description": "Node.js examples for the Privy API, including token data, swap quotes, holdings, trading, and account activity.",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=20.12"
+    },
+    "scripts": {
+        "search": "node examples/01-search-tokens.mjs",
+        "trending": "node examples/02-trending-tokens.mjs",
+        "token": "node examples/03-token-info.mjs",
+        "quote": "node examples/04-swap-quote.mjs",
+        "holdings": "node examples/05-wallet-holdings.mjs",
+        "positions": "node examples/06-positions.mjs",
+        "activity": "node examples/07-activity.mjs",
+        "points": "node examples/08-points.mjs",
+        "buy": "node examples/09-create-buy-intent.mjs",
+        "status": "node examples/10-trade-status.mjs",
+        "sell": "node examples/11-create-sell-authorization.mjs",
+        "account": "node examples/12-account.mjs",
+        "test": "node --test \"test/*.test.mjs\""
+    }
 }
