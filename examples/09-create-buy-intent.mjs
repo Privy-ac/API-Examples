@@ -43,7 +43,7 @@ try {
         console.log(`  status:               ${intent.status}`)
         console.log(`  deposit (incl. fees): ${formatUnits(intent.amountLamports, 9)} SOL`)
         console.log(`  minimum output:       ${intent.minimumOutputAmount} raw units`)
-        console.log(`  deposit expires:      ${intent.depositExpiresAt}`)
+        console.log(`  deposit expires:      ${intent.expiresAt}`)
         console.log(`  lastValidBlockHeight: ${deposit.lastValidBlockHeight}`)
         console.log(`  unsigned tx (base64): ${deposit.transaction.slice(0, 48)}…`)
         console.log('\nNext: the wallet owner signs deposit.transaction in their own wallet, then you send it to')
