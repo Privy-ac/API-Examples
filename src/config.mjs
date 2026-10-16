@@ -12,7 +12,7 @@ export const DEFAULT_BASE_URL = 'https://privy.ac/api/v1'
 
 export const config = {
     baseUrl: (process.env.PRIVY_API_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, ''),
-    apiKey: process.env.PRIVY_API_KEY || undefined,
+    apiKey: process.env.PRIVY_API_KEY,
 }
 
 /** Exits with a helpful message when an example needs a key that is not configured. */
